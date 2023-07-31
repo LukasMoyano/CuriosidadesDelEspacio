@@ -1,0 +1,103 @@
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+  }
+  
+ 
+  .quoteBox {
+    display: grid;
+    grid-templeterows: auto 1fr;
+  }
+  
+  .quoteBox__btn {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quoteBox__phrase {
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .quoteBox__phrase {
+      font-size: 1.2em;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .quoteBox__phrase {
+      font-size: 1em;
+    }
+  }
+  
+  
+  .footer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0357px;
+    line-height: 19px;
+    text-align: center;
+    color: hsl(204, 100%, 70%);
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.33);
+    border: 2px solid #64fafa;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  
+  .app {
+    background-image: url('../espacio/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  
+  .app.bg1 {
+    background-image: url('../espacio/bg1.jpg');
+  }
+  
+  .app.bg2 {
+    background-image: url('../espacio/bg2.jpg');
+  }
+  
+  .app.bg3 {
+    background-image: url('../espacio/bg3.jpg');
+  }
+  
+  .app.bg4 {
+    background-image: url('../espacio/bg4.jpg');
+  }
+  
+  .app__container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    justify-items: center;
+    width: min(100%, 300px);
+    padding: 0 10px;
+  }
+  
+  .app__container h1 {
+    color: yellow;
+  }
+  

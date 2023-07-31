@@ -1,0 +1,116 @@
+/* Estilos para el componente QuoteBox */
+.quoteBox {
+  background-color:aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.quoteBox__btn {
+  width: 100px;
+  height: 30px;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quoteBox__phrase {
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 0;
+}
+
+/* Estilos responsivos para el componente QuoteBox */
+@media screen and (max-width: 768px) {
+  .quoteBox__phrase {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .quoteBox__phrase {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+}
+
+/* Estilos para el pie de página */
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ff6f61;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.33);
+  border: 2px solid #64fafa;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* Estilos para el componente App */
+.app {
+  background-image: url('../espacio/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app.bg1 {
+  background-image: url('../espacio/bg1.jpg');
+}
+
+.app.bg2 {
+  background-image: url('../espacio/bg2.jpg');
+}
+
+.app.bg3 {
+  background-image: url('../espacio/bg3.jpg');
+}
+
+.app.bg4 {
+  background-image: url('../espacio/bg4.jpg');
+}
+
+.app__container {
+  background-color:yellow;
+  align-items: center;
+  justify-items: center;
+  width: min(100%, 300px);
+  height: 100%;
+  padding: 0 10px;
+}
+
+.app__container h1 {
+  color: #ff6f61;
+  background-color:yellowgreen;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 0 10px rgba(255, 111, 97, 0.5); /* Agregamos una sombra que se extienda solo hasta el borde del botón */
+}
+
+/* Estilos responsivos para el componente App */
+@media screen and (max-width: 768px) {
+  .app__container h1 {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .app__container h1 {
+    font-size: 1.5em;
+    margin: 5px 0;
+  }
+}

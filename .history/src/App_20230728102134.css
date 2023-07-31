@@ -1,0 +1,237 @@
+/* Agrega las funciones de Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos para h1 */
+.text-2xl {
+  font-size: 2em;
+}
+
+/* Estilos para .quoteBox */
+.inline-block {
+  display: inline-block;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+/* Estilos para .quoteBox__btn */
+.w-100 {
+  width: 100px;
+}
+
+.h-30 {
+  height: 30px;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.text-white {
+  color: white;
+}
+
+.rounded-5 {
+  border-radius: 5px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Estilos para .quoteBox__phrase */
+.text-1-5xl {
+  font-size: 1.5em;
+}
+
+/* Estilos para @media screen and (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .md\:text-1-2xl {
+    font-size: 1.2em;
+  }
+}
+
+/* Estilos para @media screen and (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .sm\:text-1xl {
+    font-size: 1em;
+  }
+}
+
+/* Estilos para .footer */
+.absolute {
+  position: absolute;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.translate-x-50 {
+  transform: translateX(-50%);
+}
+
+.translate-y-50 {
+  transform: translateY(-50%);
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.font-fredoka {
+  font-family: 'Fredoka', sans-serif;
+}
+
+.text-16 {
+  font-size: 16.0357px;
+}
+
+.leading-19 {
+  line-height: 19px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-hsl-204 {
+  color: hsl(204, 100%, 70%);
+}
+
+.text-shadow {
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.33);
+}
+
+.border-2 {
+  border: 2px solid #64fafa;
+}
+
+.p-5-10 {
+  padding: 5px 10px;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+/* Estilos para .app */
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/* Estilos para .app.bg1 */
+.bg1 {
+  background-image: url('../espacio/bg1.jpg');
+}
+
+/* Estilos para .app.bg2 */
+.bg2 {
+  background-image: url('../espacio/bg2.jpg');
+}
+
+/* Estilos para .app.bg3 */
+.bg3 {
+  background-image: url('../espacio/bg3.jpg');
+}
+
+/* Estilos para .app.bg4 */
+.bg4 {
+  background-image: url('../espacio/bg4.jpg');
+}
+
+/* Estilos para .app__container */
+.grid {
+  display: grid;
+}
+
+.grid-rows-auto {
+  grid-template-rows: auto;
+}
+
+.grid-rows-1fr {
+  grid-template-rows: 1fr;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-items: center;
+}
+
+.w-min-100 {
+  width: min(100%, 300px);
+}
+
+.p-x-4 {
+  padding: 0 10px;
+}
+
+/* Estilos para .app__container h1 */
+.text-yellow {
+  color: yellow;
+}
+
+/* Estilos para .quoteBox__phrase */
+.text-white {
+  color: #FFF;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-shadow {
+  text-shadow: 0px 4px 6px 0px #9F84C5;
+}
+
+.font-digital {
+  font-family: Digital Numbers;
+}
+
+.text-32 {
+  font-size: 32px;
+}
+
+.font-normal {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.leading-normal {
+  line-height: normal;
+}

@@ -1,0 +1,91 @@
+.quoteBox__btn {
+  width: 100px;
+  height: 30px;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.app.bg1 {
+  background-image: url('../espacio/bg1.jpg');
+}
+
+.app.bg2 {
+  background-image: url('../espacio/bg2.jpg');
+}
+
+.app.bg3 {
+  background-image: url('../espacio/bg3.jpg');
+}
+
+.app.bg4 {
+  background-image: url('../espacio/bg4.jpg');
+}
+
+.app__container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  place-items: center;
+  width: min(100%, 300px);
+  min-height: 100vh;
+  padding: 0 10px;
+  margin: 0 auto
+}
+
+.app__container h1 {
+  text-align:center ;
+  color: #ffe561;
+  text-shadow: bisque;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+
+
+.quoteBox__btn {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.quoteBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+  border-radius: 39px;
+
+}
+
+.quoteBox__phrase {
+  display: flex;
+  padding: 10px;
+  height: 245px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+  border-radius: 39px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.quoteBox__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.quoteBox__phrase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
