@@ -1,0 +1,120 @@
+/* Estilos para el componente App */
+.app {
+  position: relative;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../espacio/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.app.bg1 {
+  background-image: url("../espacio/bg1.jpg");
+}
+
+.app.bg2 {
+  background-image: url("../espacio/bg2.jpg");
+}
+
+.app.bg3 {
+  background-image: url("../espacio/bg3.jpg");
+}
+
+.app.bg4 {
+  background-image: url("../espacio/bg4.jpg");
+}
+
+.app__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: min(100%, 300px);
+  min-height: 100vh;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.app__container h1 {
+  text-align: center;
+  margin: 10px 0;
+  color: #ffe561;
+  text-shadow: bisque;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+}
+
+/* Estilos para el componente QuoteBox */
+.quoteBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 39px;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.33) 100%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.quoteBox__btn {
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quoteBox__phrase {
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  border-radius: 39px;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.33) 100%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.quoteBox__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  /* ... (otros estilos) ... */
+  position: relative;
+  background: rgba(100, 175, 250, 0.2); /* Color de fondo azul tenue */
+  margin-top: auto; /* Empuja el contenido hacia la parte inferior */
+  padding: 5px 10px; /* Espaciado interno para separar el contenido del borde */
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5); /* Sombra para resaltar el borde */
+
+  /* Centrado vertical del contenido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el título h3 dentro de la .footer */
+.footer h3 {
+  margin: 0;
+}
+
+.footer h4 {
+  /* Estilos de tipografía estilizada */
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: white; /* Letra blanca */
+  text-align: center; /* Centrado horizontal del texto */
+  margin: 5px 0; /* Espaciado entre el contenido y el borde 
+inferior */
+}
+

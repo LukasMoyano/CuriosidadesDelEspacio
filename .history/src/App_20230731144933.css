@@ -1,0 +1,121 @@
+/* Estilos para el componente App */
+.app {
+  position: relative; /* Añadimos posicionamiento relativo al contenedor .app */
+  background-image: url("../espacio/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app.bg1 {
+  background-image: url("../espacio/bg1.jpg");
+}
+
+.app.bg2 {
+  background-image: url("../espacio/bg2.jpg");
+}
+
+.app.bg3 {
+  background-image: url("../espacio/bg3.jpg");
+}
+
+.app.bg4 {
+  background-image: url("../espacio/bg4.jpg");
+}
+
+.app__container {
+  display: flex; /* Cambiamos a flex para alinear los elementos verticalmente */
+  flex-direction: column; /* Alineamos los elementos en una columna */
+  align-items: center;
+  justify-content: center;
+  width: min(100%, 300px);
+  min-height: 100vh;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.app__container h1 {
+  text-align: center;
+  color: #ffe561;
+  text-shadow: bisque;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  margin: 10px 0; /* Ajustamos el margen para separarlo del contenido siguiente */
+}
+
+/* Estilos para el componente QuoteBox */
+.quoteBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px; /* Ajustamos el espacio entre elementos */
+  width: 100%;
+  border-radius: 39px;
+  margin-top: 10px; /* Agregamos un margen superior para separarlo del contenido anterior */
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.33) 100%
+  );
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+
+.quoteBox__btn {
+  width: 100px;
+  height: 30px;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px; /* Ajustamos el margen superior para separarlo del contenido anterior */
+}
+
+.quoteBox__phrase {
+  display: flex;
+  padding: 10px;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.33) 100%
+  );
+  border-radius: 39px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.quoteBox__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ff6f61;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.33);
+  border: 2px solid #64fafa;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 10px; /* Ajustamos el margen superior para separarlo de .quoteBox */
+  background: rgba(255, 255, 255, 0.884);
+}
+
+/* Estilos para el título h3 dentro de la .footer */
+.footer h3 {
+  margin: 1; 
+}
+
+.footer h4 {
+
+}

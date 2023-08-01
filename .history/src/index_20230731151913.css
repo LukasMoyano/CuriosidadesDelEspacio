@@ -1,0 +1,21 @@
+html {
+  /* box-sizing: border-box; */
+
+}
+
+
+body{
+  margin: 0;
+}
+
+h1, 
+h2, 
+h5, 
+h6 {
+  margin: 0;
+}   
+
+img {
+  max-width: 100%;
+}
+
