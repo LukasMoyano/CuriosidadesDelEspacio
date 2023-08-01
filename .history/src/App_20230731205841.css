@@ -43,7 +43,6 @@
   text-shadow: bisque;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
-  text-shadow: 0px 2px 4px rgb(0, 0, 0);
 }
 
 /* Estilos para el componente QuoteBox */
@@ -56,11 +55,7 @@
   padding: 10px;
   margin-top: 10px;
   border-radius: 39px;
-  background: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    rgba(255, 255, 255, 0.33) 100%
-  );
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.33) 100%);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -70,8 +65,8 @@
   height: 30px;
   margin: 0 auto;
   margin-top: 10px;
-  background-color: #f4ff61;
-  color: rgb(0, 0, 0);
+  background-color: #ff6f61;
+  color: white;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -81,11 +76,7 @@
   display: flex;
   padding: 10px;
   border-radius: 39px;
-  background: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    rgba(255, 255, 255, 0.33) 100%
-  );
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.33) 100%);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -96,29 +87,22 @@
   height: 100%;
 }
 
-.quote__author {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  color: hsl(0, 0%, 100%);
-  padding: 5px 10px;
-  border-radius: 10px;
-  background-color: rgba(255, 251, 27, 0.356);
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+.footer {
+
 }
 
 .credito {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  color: hsl(0, 0%, 100%);
+  color: hsl(251, 100%, 27%); 
   margin: 5px 0;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 5px 10px; 
   border-radius: 10px;
   position: absolute;
-  bottom: 10px;
-  left: 50%;
+  bottom: 10px; 
+  left: 50%; 
   transform: translateX(-50%);
-  white-space: nowrap;
 }

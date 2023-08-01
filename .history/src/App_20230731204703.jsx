@@ -29,9 +29,8 @@ function App() {
         <QuoteBox handleChangeQuote={handleChangeQuote} phrase={quote.phrase} />
         <footer>
           <h3 className="quote__author">Fuente: {quote.author}</h3>
-          <h4 className="credito">Creation by The Master Lukas M.</h4>
-
         </footer>
+        <h4>A creation of the Master Lukas M.</h4>
       </section>
     </main>
   );
