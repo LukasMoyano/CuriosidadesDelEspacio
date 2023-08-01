@@ -39,13 +39,11 @@
 .app__container h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
-  text-align: center;
+  /* text-align: center; */
   margin: 10px 0;
   color: #ffe561;
   text-shadow: bisque;
   text-shadow: 0px 2px 4px rgb(0, 0, 0);
-  max-width: 100vw; /* Establecer el ancho máximo al ancho de la ventana del navegador */
-
 }
 
 /* Estilos para el componente QuoteBox */

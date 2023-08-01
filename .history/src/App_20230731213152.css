@@ -37,15 +37,13 @@
 }
 
 .app__container h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5em;
   text-align: center;
   margin: 10px 0;
   color: #ffe561;
   text-shadow: bisque;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
   text-shadow: 0px 2px 4px rgb(0, 0, 0);
-  max-width: 100vw; /* Establecer el ancho máximo al ancho de la ventana del navegador */
-
 }
 
 /* Estilos para el componente QuoteBox */
@@ -79,7 +77,6 @@
 }
 
 .quoteBox__phrase {
-  font-family: "Montserrat", sans-serif;
   text-align: center;
   display: flex;
   padding: 10px;
@@ -89,6 +86,7 @@
     #ffffff 0%,
     rgba(255, 255, 255, 0.33) 100%
   );
+  font-family: "Montserrat", sans-serif;
 }
 
 .quoteBox__container {
@@ -101,6 +99,7 @@
 .quote__author {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  text-justify:  center;
   color: hsl(0, 0%, 100%);
   padding: 5px 10px;
   border-radius: 10px;
