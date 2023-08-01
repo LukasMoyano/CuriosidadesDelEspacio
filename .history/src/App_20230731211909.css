@@ -118,5 +118,8 @@
   border-radius: 10px;
   position: absolute;
   bottom: 10px;
-  white-space: nowrap;
+  width: 100%; /* Hace que la barra ocupe todo el ancho del renglón */
+  left: 0; /* Coloca la barra completamente a la izquierda */
+  transform: none; /* Elimina la transformación anterior */
+  /* white-space: nowrap; */
 }

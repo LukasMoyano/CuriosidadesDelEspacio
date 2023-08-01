@@ -118,5 +118,7 @@
   border-radius: 10px;
   position: absolute;
   bottom: 10px;
+  width: 100%;
+  transform: none; /* Elimina la transformación anterior */
   white-space: nowrap;
 }

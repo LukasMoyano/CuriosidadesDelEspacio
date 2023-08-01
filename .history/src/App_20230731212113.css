@@ -118,5 +118,6 @@
   border-radius: 10px;
   position: absolute;
   bottom: 10px;
-  white-space: nowrap;
+  /* width: 100%; */
+  left: 0; /* Coloca la barra completamente a la izquierda */
 }
